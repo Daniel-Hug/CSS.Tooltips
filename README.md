@@ -8,9 +8,4 @@ For detailed instructions on how to use this pack, please refer to the <a href="
 
 ##License
 
-The styles and code herein are released under http://unlicense.org/.
-
-###Changelog
-
-23.11.2011<br>
---First commit
+Licensed under <a href="http://licence.visualidiot.com/">&#9786; License</a>.
