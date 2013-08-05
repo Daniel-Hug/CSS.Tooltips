@@ -15,10 +15,8 @@ https://github.com/AdamWhitcroft/CSS.Tooltips
 	display:none;
 	border:5px solid #1a1a1a;
 	/* 4 border technique to create the arrow */
+	border-color:transparent;
 	border-top-color:#1a1a1a;
-	border-right-color:transparent;
-	border-bottom-color:transparent;
-	border-left-color:transparent;
 	position:absolute;
 	top:-7px;
 	left:10px;
@@ -59,10 +57,8 @@ https://github.com/AdamWhitcroft/CSS.Tooltips
 	color:#00b7d8;
 }
 .help[data-tip]:before {
+	border-color:transparent;
 	border-top-color:#00b7d8;
-	border-right-color:transparent;
-	border-bottom-color:transparent;
-	border-left-color:transparent;
 }
 .help[data-tip]:after {
 	background:#00b7d8;
@@ -73,10 +69,8 @@ https://github.com/AdamWhitcroft/CSS.Tooltips
 	color:#51bd6a;
 }
 .success[data-tip]:before {
+	border-color:transparent;
 	border-top-color:#51bd6a;
-	border-right-color:transparent;
-	border-bottom-color:transparent;
-	border-left-color:transparent;
 }
 .success[data-tip]:after {
 	background:#51bd6a;
@@ -87,10 +81,8 @@ https://github.com/AdamWhitcroft/CSS.Tooltips
 	color:#f9ca64;
 }
 .alert[data-tip]:before {
+	border-color:transparent;
 	border-top-color:#f9ca64;
-	border-right-color:transparent;
-	border-bottom-color:transparent;
-	border-left-color:transparent;
 }
 .alert[data-tip]:after {
 	background:#f9ca64;
@@ -101,10 +93,8 @@ https://github.com/AdamWhitcroft/CSS.Tooltips
 	color:#e1473e;
 }
 .error[data-tip]:before {
+	border-color:transparent;
 	border-top-color:#e1473e;
-	border-right-color:transparent;
-	border-bottom-color:transparent;
-	border-left-color:transparent;
 }
 .error[data-tip]:after {
 	background:#e1473e;
@@ -118,34 +108,24 @@ https://github.com/AdamWhitcroft/CSS.Tooltips
 	left:0px;
 }
 .tip-below[data-tip]:before {
-	border-top-color:transparent;
-	border-right-color:transparent;
+	border-color:transparent;
 	border-bottom-color:#1a1a1a;
-	border-left-color:transparent;
 	top:13px;
 	left:10px;	
 }
 .tip-below.help[data-tip]:before {
-	border-top-color:transparent;
-	border-right-color:transparent;
+	border-color:transparent;
 	border-bottom-color:#00b7d8;
-	border-left-color:transparent;
 }
 .tip-below.success[data-tip]:before {
-	border-top-color:transparent;
-	border-right-color:transparent;
+	border-color:transparent;
 	border-bottom-color:#51bd6a;
-	border-left-color:transparent;
 }
 .tip-below.alert[data-tip]:before {
-	border-top-color:transparent;
-	border-right-color:transparent;
+	border-color:transparent;
 	border-bottom-color:#f9ca64;
-	border-left-color:transparent;
 }
 .tip-below.error[data-tip]:before {
-	border-top-color:transparent;
-	border-right-color:transparent;
+	border-color:transparent;
 	border-bottom-color:#e1473e;
-	border-left-color:transparent;
 }
